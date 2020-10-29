@@ -46,7 +46,7 @@ public class MiniJava {
     } catch (IOException e) {
       // We "hide" the exception in the method signature by rethrowing an unchecked
       // exception
-      throw new UncheckedIOException("Konnte Eingabe nicht lesen.", e);
+      throw new UncheckedIOException("Input could not be parsed.", e);
     }
   }
 
@@ -59,7 +59,7 @@ public class MiniJava {
    * </pre>
    */
   public static String readString() {
-    return readString("Eingabe:");
+    return readString("Input:");
   }
 
   /**
