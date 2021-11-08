@@ -9,6 +9,11 @@ public class Animal
         this.name=name;
         this.foodCosts = foodCosts;
     }
+
+    public int getFoodCosts() {
+        return foodCosts;
+    }
+
     public String toString () {
         return "("+"name:"+name+ ", foodCosts: "+foodCosts+")";
     }

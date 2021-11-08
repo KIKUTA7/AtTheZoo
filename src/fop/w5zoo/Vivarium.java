@@ -14,4 +14,8 @@ public class Vivarium {
     public String toString () {
         return "[area: "+area+", constructionYear: "+constructionYear+", animals: "+inhabitants.toString()+"]";
     }
+    public int getCosts()
+    {
+        return 900+area*area*100+area*area*(2019-constructionYear)*5;
+    }
 }
