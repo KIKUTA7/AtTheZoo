@@ -14,6 +14,10 @@ public class Animal
         return foodCosts;
     }
 
+    public String getName() {
+        return name;
+    }
+
     public String toString () {
         return "("+"name:"+name+ ", foodCosts: "+foodCosts+")";
     }
