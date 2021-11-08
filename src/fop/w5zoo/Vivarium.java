@@ -1,9 +1,9 @@
 package fop.w5zoo;
 
 public class Vivarium {
-    int area;
-    int constructionYear;
-    Animal [] inhabitants;
+    private int area;
+    private int constructionYear;
+    private Animal [] inhabitants;
     public Vivarium(Animal[] inhabitants, int area, int constructionYear)
     {
         this.inhabitants = inhabitants;

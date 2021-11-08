@@ -1,7 +1,7 @@
 package fop.w5zoo;
 
 public class Zoo {
-    Vivarium[] vivaria;
+    private Vivarium[] vivaria;
     public Zoo(Vivarium[] vivaria)
     {
        this.vivaria = vivaria;
