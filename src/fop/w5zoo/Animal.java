@@ -2,6 +2,7 @@ package fop.w5zoo;
 
 public class Animal
 {
+
     private String name;
     private int foodCosts;
     public Animal(String name, int foodCosts)
